@@ -4,7 +4,7 @@
 	vertical-align:middle;
 	margin-top:10px;
 	width:100%;
-	position: absolute;
+	position: relative;
 }
 
 #dp{
@@ -20,6 +20,7 @@
 	position: absolute;
 }
 
+
 .navbar li ul{
 	display: inline;
 	font-family: arial, sans-serif;
@@ -34,7 +35,7 @@
 }
 #img1{
 	position: relative;
-	opacity: .6;
+	opacity: .4;
 	top:4px;
 }
 #img2{
@@ -43,9 +44,10 @@
 	opacity: .7;
 }
 .google{
+	margin:0 auto;
 	top:165px;
-	width:100%;
-	position: absolute;
+	width:50%;
+	position: relative;
 
 }
 .google img{
@@ -64,17 +66,18 @@
 	height:38px;
 }
 #mic{
-	position: absolute;
-	height: 21px;
+	position: relative;
+	height: 24px;
 	width: 14px;
-	left:945px;
-	top:165px;
+	top:17px;
+	left:270px;
 }
 
 .buttons{
-	position: absolute;
-	width:100%;
-	top: 357px;
+	margin:0 auto;
+	position: relative;
+	top: 150px;
+	width:285px;
 }
 
 input[type=submit] 
@@ -86,14 +89,11 @@ input[type=submit]
 	color: #757575;
 	border:0;
 	height:36px;
-	margin: 35px 4px;
+	margin: 24px 4px;
 	padding: 0 16px;
 	background-color:#f2f2f2;
-	position: absolute;
+	position: relative;
 }
-
-#b1{left:542px;}
-#b2{right:542px;}
 
 footer{
 	background-color: #787878;
@@ -102,7 +102,7 @@ footer{
 	width: 100%;
 	position: absolute;
 	left: 0;
-	bottom: 44px;
+	bottom: 44px;	
 }
 
 footer .left{
